@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.yuqirong.smoothcheckbox.view.SmoothCheckBox
+            android:id="@+id/smoothCheckBox"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:tickWidth="5dp" />
+
+        <com.yuqirong.smoothcheckbox.view.SmoothCheckBox
+            android:id="@+id/smoothCheckBox2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:borderColor="@android:color/holo_green_light"
+            app:duration="500"
+            app:tickColor="@android:color/holo_red_light"
+            app:tickWidth="10dp"
+            app:trimColor="@android:color/holo_purple" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击2" />
+</LinearLayout>
