@@ -11,6 +11,8 @@
         android:scrollbars="none"
          />
 
+
+    <!--另一个demo-->
     <com.yuqirong.swipelistview.view.SlidingPanel
         android:layout_width="match_parent"
         android:layout_height="match_parent"
